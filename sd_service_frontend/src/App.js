@@ -1,13 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import NavbarD from './Componentes/Navbar';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import TableD from './Componentes/Table';
+import FormularioD from './Componentes/Formulario';
 
 function App() {
   return (
     <div className="App">
+      <NavbarD></NavbarD>
+      <TableD></TableD>
+     
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+         <FormularioD></FormularioD>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          
         </p>
         <a
           className="App-link"
